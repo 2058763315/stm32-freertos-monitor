@@ -478,8 +478,3 @@ SHT30（`0x44`）与 SSD1306（`0x3C`）挂在同一路软件 I²C 上，靠 `i2
 - **报警阈值集中在 `app_config.h`**。温度湿度光照六条阈值都定义在一处，可按现场环境调整。
 
 - **字库只覆盖可打印 ASCII**，不显示中文，需要的字符由 `Tools/gen_font.py` 生成。
-  =======
-
->>>>>>> 0f7c8800bda6afeed8b1ea2fd25a6a6d89691bf7
-
-# stm32-freertos-monitor
